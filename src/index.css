@@ -13,5 +13,64 @@ code {
 }
 
 .note{
-  width: 30%;
+  width: 300px;
+}
+.detailWndo{
+  padding: 40px;
+  background: #b5cf6d;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+}
+.myBtnRnd{
+  min-width: 100px;
+  background: #a867e4;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  margin: 5px;
+  cursor: pointer;
+  box-shadow: 2px 2px 5px #5d5d5d;
+}
+.myBtnRnd:hover{
+  background: #b2e467;
+  
+}
+.cursor{
+  cursor: pointer;
+}
+.myNoteCard{
+  padding: 20px;
+  border-radius: 10px;
+}
+.greenC{
+  background: #b2e467;
+}
+
+.myHeader{
+  padding: 30px;
+  background: #c297eb;
+  color: white;
+}
+.myHeaderSpecial{
+  padding: 10px;
+  background: white;
+  color: #a867e4;
+}
+.myHeaderSpecial2{
+  padding: 10px;
+  background: #a867e4;
+  color: white;
+}
+.myBtnRnd2{
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  background: #a867e4;
+}
+.myBtnRnd2:hover{
+  background: #80bbf3
 }
